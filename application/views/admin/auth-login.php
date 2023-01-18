@@ -20,7 +20,7 @@ $this->load->view('admin/_partials/header');
                 <form method="POST" action="<?php $this->uri->segment(1).'/admin/index' ?>" class="needs-validation" novalidate="">
                   <div class="form-group">
                     <label for="email">Email</label>
-                    <input id="email" type="email" class="form-control" name="email" value="a@gmail.com" tabindex="1" required autofocus>
+                    <input id="email" type="email" class="form-control" name="email" value="" tabindex="1" required autofocus>
                     <div class="invalid-feedback">
                       Isi Email
                     </div>
